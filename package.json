@@ -18,8 +18,11 @@
     "webpack": "node --max_old_space_size=4096 node_modules/webpack/bin/webpack.js"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "bee-mobile": "^0.3.1",
     "history": "^4.7.2",
+    "mobx": "^5.0.3",
+    "mobx-react": "^5.2.5",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-router": "^4.2.0",

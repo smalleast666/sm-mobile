@@ -47,9 +47,7 @@ module.exports = (options) => {
             extensions: ['.tsx', '.ts', '.js', '.jsx', '.json'],
             alias: {
                 [pkg.name]: process.cwd(),
-                '#': path.join(process.cwd(), 'src'),
-                'components': path.join(process.cwd(), 'src/components'),
-                'views': path.join(process.cwd(), 'src/views'),
+                '~': path.join(process.cwd(), 'src'),
             }
         },
         plugins: [
